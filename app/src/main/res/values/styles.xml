@@ -1,0 +1,26 @@
+<resources>
+    <style name="Theme._4099000" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Cor de fundo do aplicativo -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Texto -->
+        <item name="android:textColor">#212121</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+
+        <!-- Estilo de Botões -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+
+        <!-- Estilo de EditText -->
+        <item name="android:editTextBackground">@drawable/edittext_background</item>
+
+        <!-- Personalização de Toolbar -->
+        <item name="android:toolbarStyle">@style/CustomToolbar</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.AppCompat.Toolbar">
+        //<item name="background">@color/colorPrimary</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+</resources>
